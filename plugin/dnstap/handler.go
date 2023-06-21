@@ -20,6 +20,8 @@ type Dnstap struct {
 	IncludeRawMessage bool
 	Identity          []byte
 	Version           []byte
+	Extra             []byte
+	
 }
 
 // TapMessage sends the message m to the dnstap interface.
